@@ -1,0 +1,88 @@
+.MainCont {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+    background-size: cover;
+    height: 100vh;
+    width: 70vw;
+  }
+  
+  *{
+    margin:0px
+  }
+
+  .SubCont{
+    font-family:"Roboto";
+    font-size: 30px;
+  }
+
+  .Whole{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .StopWatchCont{
+    margin:20px;
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+    width:300px;
+    height:250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .head{
+margin: 30px;
+  }
+
+  .img1{
+    width:20px;
+    margin:5px;
+  }
+
+  .topPart{
+    margin:0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+  }
+
+  .TimeShown{
+    margin:20px;
+    font-size:50px;
+    font-family:"Roboto";
+  }
+
+  .btn1{
+    width: 70px;
+    margin:10px;
+    margin-top:20px;
+    height:30px;
+    border-radius:6px;
+    border-width:0px;
+    background-color: #1db05f;
+    color:#ffffff;
+  }
+
+  .btn2{
+    width: 70px;
+    margin:10px;
+    margin-top:20px;
+    height:30px;
+    border-radius:6px;
+    border-width:0px;
+    background-color:#ef0d36;
+    color:#ffffff;
+  }
+
+  .btn3{
+    width: 70px;
+    margin:10px;
+    margin-top:20px;
+    height:30px;
+    border-radius:6px;
+    border-width:0px;
+    background-color: #eaa800;
+    color:#ffffff;
+  }
